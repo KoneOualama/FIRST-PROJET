@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Serveur</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="fils.css">
+</head>
+<body id="yachou" onmouseover="aicha();" onmouseout="perle();">
+	<u><h1>Chic jeu de logique</h1></u>
+	<div>
+		<p style="font-size: 25px; text-align: center; font-weight: bold; margin-top: 20px;">Bah l'objectif du jeu est très simple , clic sur première<br> image ensuite la seconde et l'omoticone te demandera <br>d'entrer ton nom suivi d'un nombre.<br><br><mark>chiiiic non ? allez top c'est parti !</mark></p>
+	</div>
+	<img src="images/image.jpg" onclick="Maman()">
+	<img src="images/tigui.jpg" onclick="Papa()" class="image">
+    
+    <script type="text/javascript">
+
+    	function Maman(){
+    		var jeu = prompt("veuillez saisir votre nom svp !!");
+    		var Tigui = prompt("veuillez saisir un nombre !");
+    	}
+
+    	function Papa(){
+    		var forget = prompt("veuillez saisir votre nom svp !!");
+    		var go = prompt("veuillez saisir un nombre !");
+    	}
+
+    	function aicha(yachou){
+        	var yachou = document.getElementsById('yachou');
+        	yachou.src="images/images(1).jpg"
+
+        }
+
+        function perle(yachou){
+        	var yachou = document.getElementsById('yachou');
+        	yachou.src="images/images(2).jpg"
+
+        }
+
+
+
+    	
+
+
+
+    </script>
+</body>
+</html>

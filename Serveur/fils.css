@@ -1,0 +1,27 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: #00ff00;
+
+}
+
+.image{
+	float: right;
+	height: 380px;
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: black;
+	color: #fff;
+	box-shadow: 2px 2px 2px #0000ff;
+}
+
+.para{
+	text-align: center;
+	margin-top: 150px,
+	font-size:50px;
+}
